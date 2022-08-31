@@ -7,7 +7,7 @@ import { Hayca } from '../model/hayca';
   providedIn: 'root'
 })
 export class HaycaService {
-  URL = 'http://localhost:8080/hayca';
+  URL = 'https://bkdernestgoitar.herokuapp.com/hayca';
 
   constructor(private httpClient: HttpClient) { }
 

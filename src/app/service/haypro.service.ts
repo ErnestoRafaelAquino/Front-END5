@@ -7,7 +7,7 @@ import { Haypro } from '../model/haypro';
   providedIn: 'root'
 })
 export class HayproService {
-  URL = 'http://localhost:8080/haypro/'
+  URL = 'https://bkdernestgoitar.herokuapp.com/haypro/'
 
   constructor(private httpClient : HttpClient) { }
 

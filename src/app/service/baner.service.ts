@@ -7,7 +7,7 @@ import { Baner } from '../model/baner';
   providedIn: 'root'
 })
 export class BanerService {
-  URL = 'http://localhost:8080/baner/';
+  URL = 'https://bkdernestgoitar.herokuapp.com/baner/';
 
   constructor(private httpClient : HttpClient) { }
 

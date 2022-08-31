@@ -7,7 +7,7 @@ import { Hayki } from '../model/hayki';
   providedIn: 'root'
 })
 export class HaykiService {
-  URL = 'http://localhost:8080/hayki/';
+  URL = 'https://bkdernestgoitar.herokuapp.com/hayki/';
 
   constructor(private httpClient : HttpClient) { }
 

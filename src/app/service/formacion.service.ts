@@ -7,7 +7,7 @@ import { Formacion } from '../model/formacion';
   providedIn: 'root'
 })
 export class FormacionService {
-  URL = 'http://localhost:8080/formacion/';
+  URL = 'https://bkdernestgoitar.herokuapp.com/formacion/';
 
   constructor(private httpClient: HttpClient) { }
 
