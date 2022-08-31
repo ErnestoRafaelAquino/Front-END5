@@ -31,6 +31,8 @@ import { NewhayproComponent } from './components/proyecto/newhaypro.component';
 import { EdithayproComponent } from './components/proyecto/edithaypro.component';
 import { NewformacionComponent } from './components/formacion/newformacion.component';
 import { EditformacionComponent } from './components/formacion/editformacion.component';
+import { NewbanerComponent } from './components/acerca-de/newbaner.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 @NgModule({
   declarations: [
@@ -60,13 +62,15 @@ import { EditformacionComponent } from './components/formacion/editformacion.com
     EdithayproComponent,
     NewformacionComponent,
     EditformacionComponent,
+    NewbanerComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [
     interceptorProvider
